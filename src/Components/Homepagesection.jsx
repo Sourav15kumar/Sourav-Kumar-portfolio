@@ -8,11 +8,11 @@ const Homepagesection = () => {
       id="#hero"
       className="relative min-h-screen flex items-center justify-center px-4"
     >
-      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10 max-w-6xl z-10">
+      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-1  lg:gap-10 max-w-6xl z-10">
         
         
         <div className="text-center lg:text-left flex-1 space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+          <h1 className="text-3xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1"> Sourav</span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Kumar</span>
@@ -31,7 +31,7 @@ const Homepagesection = () => {
 
         {/* Image Section with floating animation */}
         <div className="flex-1 flex justify-center items-center">
-          <div className="relative w-[350px] md:w-[300px] lg:w-[450px]">
+          <div className="relative w-[165px] md:w-[300px] lg:w-[450px]">
             <div className="floating-img ">
               <img
                 src={SOURAVKUMAR}

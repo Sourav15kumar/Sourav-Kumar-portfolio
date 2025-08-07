@@ -8,7 +8,7 @@ const projects=[
         id:1,
         title:" Fitness Gym",
         description: "A beautiful landing page website for gym owner to show their gym facilities & price",
-        image:"/public/projects/project1.png",
+        image:"/projects/project1.png",
         tags:["Javascript","css","gsap"],
         demourl:"https://sourav15kumar.github.io/FITNESS-GYM/",
         giturl:"#",
@@ -27,7 +27,7 @@ const projects=[
         id:1,
         title:"Service Sphere ",
         description: "A website for different household services like electrician, plumber, etc.",
-        image:"/public/projects/project3.png",
+        image:"/projects/project3.png",
         tags:["Javascript","css","html"],
         demourl:"https://ashmibansal05.github.io/project-/",
         giturl:"#",
@@ -80,7 +80,7 @@ const Projectsection = () => {
         {/* github link yha likhna hai sourav */}
         <a  className='cosmic-button w-fit flex items-center mx-auto gap-2' 
         target='_blank'
-        href='#'>   
+        href='https://github.com/Sourav15kumar'>   
         Check My Github <ArrowRight size={16}/> </a>
 
       </div>

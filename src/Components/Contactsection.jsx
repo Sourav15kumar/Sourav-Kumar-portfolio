@@ -108,7 +108,7 @@ const Contactsection = () => {
                 <div className='pt-8'>
                     <h4 className='font-medium mb-4'>Connect With Me</h4>
                     <div className='flex space-x-4 justify-center'>
-                        <a href='www.linkedin.com/in/souravkumar15' target='_blank'><Linkedin/></a>
+                        <a href='https://www.linkedin.com/in/souravkumar15/' target='_blank'><Linkedin/></a>
                         <a href='https://www.instagram.com/kumarsourav.15/?next=%2F&hl=en'target='_blank'><Instagram/></a>
                         <a href='#'target='_blank'><Twitter/></a>
                     </div>
