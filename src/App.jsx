@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Notfound from './pages/Notfound'
-import component from './component'
+
 
 
 
