@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDown } from 'lucide-react';
-import SOURAVKUMAR from '../assets/myimage.png'; 
+import skimage from "../assets/skimage.jpeg";
 
 const Homepagesection = () => {
   return (
@@ -32,10 +32,10 @@ const Homepagesection = () => {
 
         {/* Image Section with floating animation */}
         <div className="flex-1 flex justify-center items-center">
-          <div className="relative w-[280px] md:w-[300px] lg:w-[450px]">
+          <div className="relative w-[180px] md:w-[200px] lg:w-[400px]">
             <div className="floating-img ">
               <img
-                src={SOURAVKUMAR}
+                src={skimage}
                 alt="Sourav 3D Visual"
                 className="rounded-2xl shadow-xl w-full h-auto object-cover"
               />

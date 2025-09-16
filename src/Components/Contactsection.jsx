@@ -5,7 +5,6 @@ import cn from '../lib/utils'
 import React from 'react'
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
-
 import { EmailJSResponseStatus } from '@emailjs/browser'
 
 
@@ -75,7 +74,7 @@ const Contactsection = () => {
                         </div>
                         <div>
                             <h4>Email</h4>
-                            <a href="souravkumar152004@gmail.com" className='text-muted-foreground hover:text-primary transition-colors'>
+                            <a href="mailto:souravkumar152004@gmail.com" className='text-muted-foreground hover:text-primary transition-colors'>
                                 souravkumar152004@gmail.com
                             </a>
                         </div>
@@ -128,12 +127,12 @@ const Contactsection = () => {
                         name="name"
                         required
                         className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-primary'
-                        placeholder='sourav kuamr....'
+                        placeholder='sourav kumar....'
                         />
                     </div>
 
                      <div>
-                        <label htmlFor='email' className='block text-sm font-medium mb-2 '>Your Name</label>
+                        <label htmlFor='email' className='block text-sm font-medium mb-2 '>Your Email</label>
                         <input
                         type="text"
                         id="Email"
